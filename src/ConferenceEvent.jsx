@@ -11,7 +11,7 @@ const ConferenceEvent = () => {
     const dispatch = useDispatch();
     //max auditorium quantity is 3
     const remainingAuditoriumQuantity = 3 - venueItems.find(item => item.name === "Auditorium Hall (Capacity:200)").quantity;
-    // need fix - max other room is 10 but could still add on after 
+    
     
     const handleToggleItems = () => {
         console.log("handleToggleItems called");
